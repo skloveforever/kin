@@ -8179,7 +8179,7 @@ h1, h2, h3, h4, h5,
   .ftco-navbar-light .navbar-brand {
     color: #fff; }
     .ftco-navbar-light .navbar-brand span {
-      color: #01d28e; }
+      color: #808080b0; }
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-brand {
         color: #fff; } }
@@ -8196,7 +8196,7 @@ h1, h2, h3, h4, h5,
     font-weight: 400;
     opacity: 1 !important; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
-      color: #01d28e; }
+      color: #808080b0; }
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
         padding-left: 0;
@@ -8248,10 +8248,10 @@ h1, h2, h3, h4, h5,
       background: #fcd436;
       border: 1px solid #fcd436; }
   .ftco-navbar-light .navbar-nav > .nav-item.cta.cta-colored a {
-    border: 1px solid #01d28e;
+    border: 1px solid #808080b0;
     background: #f00!important; }
   .ftco-navbar-light .navbar-nav > .nav-item.active > a {
-    color: #01d28e; }
+    color: #808080b0; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light .navbar-nav > .nav-item.active > a {
       color: #fcd436; } }
@@ -8392,7 +8392,7 @@ h1, h2, h3, h4, h5,
   .slider-text .icon-wrap .icon {
     width: 70px;
     height: 70px;
-    background: #01d28e;
+    background: #808080b0;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -8642,16 +8642,16 @@ h1, h2, h3, h4, h5,
     border: 1px solid #000!important;
     color: #fff !important; }
     .btn.btn-secondary:hover {
-      border: 1px solid #01d28e;
+      border: 1px solid #808080b0;
       background: transparent;
-      color: #01d28e; }
+      color: #808080b0; }
     .btn.btn-secondary.btn-outline-secondary {
-      border: 1px solid #01d28e;
+      border: 1px solid #808080b0;
       background: transparent;
-      color: #01d28e; }
+      color: #808080b0; }
       .btn.btn-secondary.btn-outline-secondary:hover {
         border: 1px solid transparent;
-        background: #01d28e;
+        background: #808080b0;
         color: #fff; }
   .btn.btn-outline-white {
     border-color: rgba(255, 255, 255, 0.8);
@@ -8777,7 +8777,7 @@ h1, h2, h3, h4, h5,
         font-size: 20px;
         margin-right: 15px; }
       .pills .features li.check span {
-        color: #01d28e; }
+        color: #808080b0; }
       .pills .features li.remove span {
         color: red; }
   .pills .head {
@@ -8814,7 +8814,7 @@ h1, h2, h3, h4, h5,
           width: 49%;
           display: inline-block; }
         .pills .review .desc .star i {
-          color: #01d28e; }
+          color: #808080b0; }
         .pills .review .desc .star .reply {
           padding: 2px 10px;
           background: #f0f0f0;
@@ -8894,7 +8894,7 @@ h1, h2, h3, h4, h5,
     .table tbody tr td.product-name h3 {
       font-size: 18px; }
     .table tbody tr td.product-name .rated span {
-      color: #01d28e; }
+      color: #808080b0; }
       .table tbody tr td.product-name .rated span:nth-child(1) {
         color: #000000; }
       .table tbody tr td.product-name .rated span:last-child {
@@ -8962,7 +8962,7 @@ h1, h2, h3, h4, h5,
         -ms-transition: all 0.3s ease;
         transition: all 0.3s ease; }
       .table tbody tr td.price:hover.price {
-        background: #01d28e; }
+        background: #808080b0; }
       .table tbody tr td.price:hover .btn-custom {
         opacity: 1; }
       .table tbody tr td.price:hover .price-rate {
@@ -8977,7 +8977,7 @@ h1, h2, h3, h4, h5,
     right: 0;
     bottom: 0;
     content: '';
-    background: #01d28e;
+    /* background: #808080b0; */
     z-index: -2;
     width: 63%; }
     @media (max-width: 767.98px) {
@@ -9038,7 +9038,7 @@ h1, h2, h3, h4, h5,
       width: 40%;
       content: '';
       opacity: 1;
-      background: #01d28e;
+      background: #808080b0;
       -ms-transform: rotate(20deg);
       /* IE 9 */
       -webkit-transform: rotate(20deg);
@@ -9167,14 +9167,14 @@ textarea.form-control {
 
 .ftco-footer {
   font-size: 16px;
-  background: #01d28e;
+  background: #808080b0;
   padding: 2em 0; }
   .ftco-footer .logo {
     text-transform: uppercase;
     font-weight: 700;
     color: #fff; }
     .ftco-footer .logo span {
-      color: #01d28e; }
+      color: #808080b0; }
   .ftco-footer .ftco-footer-widget h2 {
     font-weight: normal;
     color: #000;
@@ -9395,7 +9395,7 @@ textarea.form-control {
       border-radius: 50%;
       background: rgba(0, 0, 0, 0.1); }
       .testimony-section .owl-dots .owl-dot.active {
-        background: #01d28e; }
+        background: #808080b0; }
 
 .testimony-wrap {
   display: block;

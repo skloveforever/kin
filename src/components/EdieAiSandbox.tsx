@@ -22,10 +22,12 @@ export const EdieAiSandbox: React.FC = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [copiedId, setCopiedId] = useState<string | null>(null);
 
-  const messagesEndRef = useRef<HTMLDivElement>(null);
+  const messagesContainerRef = useRef<HTMLDivElement>(null);
 
   const scrollToBottom = () => {
-    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+    if (messagesContainerRef.current) {
+      messagesContainerRef.current.scrollTop = messagesContainerRef.current.scrollHeight;
+    }
   };
 
   useEffect(() => {
@@ -157,7 +159,7 @@ export const EdieAiSandbox: React.FC = () => {
           </div>
 
           {/* Messages Feed */}
-          <div className="flex-1 overflow-y-auto p-6 space-y-4">
+          <div ref={messagesContainerRef} className="flex-1 overflow-y-auto p-6 space-y-4">
             {messages.map((m) => (
               <div
                 key={m.id}
@@ -259,8 +261,6 @@ export const EdieAiSandbox: React.FC = () => {
                 <Sparkles className="w-4 h-4 animate-spin" /> EDIE AI is synthesizing architecture response...
               </div>
             )}
-
-            <div ref={messagesEndRef} />
           </div>
 
           {/* Input Bar */}
